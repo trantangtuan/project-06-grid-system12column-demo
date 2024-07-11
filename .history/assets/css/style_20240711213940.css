@@ -1,20 +1,11 @@
 :root {
   --primary-color: #5d3bee;
-  --secondary-color: #51586a;
 }
 
 *,
 ::after,
 ::before {
   box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 1.6rem;
 }
 
 .item {
@@ -27,10 +18,6 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--secondary-color);
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: 400;
 }
 
 /* ==========================header========================= */
@@ -44,7 +31,8 @@ a {
   width: 1330px;
   margin: 0px auto;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 .nav__mail {
@@ -58,35 +46,12 @@ a {
   height: 46px;
   border-radius: 50%;
   border: 1px solid #dcd4fc;
+  /* opacity: 0.2; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav__mail-desc {
-  color: #080415;
-  font-size: 2.2rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 136.364%;
-  text-decoration: underline;
-}
-
-.logo {
-  margin-left: 357px;
-}
-
-.logo-img {
-  height: 100px;
-  width: 100px;
-}
-
-.navbar {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-}
-
-.navbar__item {
-  padding: 8px 21.5px;
+.nav__mail-img {
+  opacity: 1;
 }

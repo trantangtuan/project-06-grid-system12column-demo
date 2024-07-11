@@ -63,15 +63,6 @@ a {
   justify-content: center;
 }
 
-.nav__mail-desc {
-  color: #080415;
-  font-size: 2.2rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 136.364%;
-  text-decoration: underline;
-}
-
 .logo {
   margin-left: 357px;
 }
@@ -82,11 +73,7 @@ a {
 }
 
 .navbar {
-  margin-left: auto;
+  margin-left: 223px;
   display: flex;
   align-items: center;
-}
-
-.navbar__item {
-  padding: 8px 21.5px;
 }
