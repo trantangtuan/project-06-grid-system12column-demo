@@ -15,7 +15,6 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "DM Sans", sans-serif;
 }
 
 .item {
@@ -163,16 +162,4 @@ a {
 .hero__social-network {
   margin-top: 104px;
   display: flex;
-  /* align-items: center; */
-}
-
-.social-network__desc {
-  line-height: 40px;
-  margin-right: -5px;
-}
-
-.social-network__icon {
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
 }

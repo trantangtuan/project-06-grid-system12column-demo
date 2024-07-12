@@ -15,7 +15,6 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "DM Sans", sans-serif;
 }
 
 .item {
@@ -114,11 +113,6 @@ a {
   background-color: #fbfaff;
 }
 
-.hero > .container {
-  display: flex;
-  align-items: center;
-}
-
 .hero__img {
   width: 514px;
 }
@@ -149,8 +143,6 @@ a {
 
 .hero__cta {
   margin-top: 50px;
-  display: flex;
-  align-items: center;
   gap: 30px;
 }
 
@@ -158,21 +150,4 @@ a {
   background-color: transparent;
   color: #080415;
   text-decoration: underline;
-}
-
-.hero__social-network {
-  margin-top: 104px;
-  display: flex;
-  /* align-items: center; */
-}
-
-.social-network__desc {
-  line-height: 40px;
-  margin-right: -5px;
-}
-
-.social-network__icon {
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
 }
