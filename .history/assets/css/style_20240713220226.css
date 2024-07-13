@@ -204,8 +204,7 @@ a {
 /* partner */
 
 .partner {
-  margin-top: 35px;
-  padding: 65px 0;
+  padding: 100px 0;
 }
 
 .partner > .container {
@@ -214,12 +213,10 @@ a {
 }
 
 .partner__left {
-  width: 30%;
+  width: 29%;
 }
 
 .partner__title {
-  position: relative;
-  margin-left: auto;
   width: 253px;
   color: #080415;
   font-size: 4.2rem;
@@ -229,22 +226,7 @@ a {
   letter-spacing: -1.68px;
 }
 
-.partner__title::before {
-  content: "";
-  opacity: 0.8;
-  display: inline-block;
-  position: absolute;
-  top: 20px;
-  left: -99px;
-  width: 86px;
-  height: 3px;
-  background-color: var(--primary-color);
-}
-
 .partner__right {
-  margin-left: 150px;
-  width: 70%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 36px 66px;
+  width: 71%;
+  margin-left: 105px;
 }

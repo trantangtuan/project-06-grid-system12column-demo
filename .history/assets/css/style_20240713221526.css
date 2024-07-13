@@ -242,9 +242,9 @@ a {
 }
 
 .partner__right {
-  margin-left: 150px;
+  margin-left: auto;
   width: 70%;
+  margin-left: 105px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 36px 66px;
 }
