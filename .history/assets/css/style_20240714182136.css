@@ -283,14 +283,8 @@ a {
 }
 
 .skill__item {
-  padding: 33px 33px 33px 43px;
+  padding: 33px 43px;
   background-color: #fbfaff;
-  cursor: pointer;
-  transition: all ease 0.3s;
-}
-
-.skill__item:hover {
-  background-color: #dfdce4;
 }
 
 .skill__icon {
@@ -311,5 +305,6 @@ a {
 
 .skill__item-desc {
   margin-top: 15px;
+  width: 85%;
   text-align: left;
 }

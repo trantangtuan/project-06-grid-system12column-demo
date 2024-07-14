@@ -282,15 +282,9 @@ a {
   margin-top: 60px;
 }
 
-.skill__item {
-  padding: 33px 33px 33px 43px;
+.skill-item {
+  padding: 33px 43px;
   background-color: #fbfaff;
-  cursor: pointer;
-  transition: all ease 0.3s;
-}
-
-.skill__item:hover {
-  background-color: #dfdce4;
 }
 
 .skill__icon {
@@ -301,6 +295,7 @@ a {
 }
 
 .sub-title {
+  width: 90%;
   color: #080415;
   font-size: 3.2rem;
   font-style: normal;
@@ -311,5 +306,6 @@ a {
 
 .skill__item-desc {
   margin-top: 15px;
+  width: 85%;
   text-align: left;
 }

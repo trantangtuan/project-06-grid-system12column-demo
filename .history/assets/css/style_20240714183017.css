@@ -290,6 +290,7 @@ a {
 }
 
 .skill__item:hover {
+  border-radius: 17px;
   background-color: #dfdce4;
 }
 

@@ -286,11 +286,10 @@ a {
   padding: 33px 33px 33px 43px;
   background-color: #fbfaff;
   cursor: pointer;
-  transition: all ease 0.3s;
 }
 
 .skill__item:hover {
-  background-color: #dfdce4;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 }
 
 .skill__icon {

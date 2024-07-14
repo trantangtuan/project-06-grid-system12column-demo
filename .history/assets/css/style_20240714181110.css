@@ -282,17 +282,6 @@ a {
   margin-top: 60px;
 }
 
-.skill__item {
-  padding: 33px 33px 33px 43px;
-  background-color: #fbfaff;
-  cursor: pointer;
-  transition: all ease 0.3s;
-}
-
-.skill__item:hover {
-  background-color: #dfdce4;
-}
-
 .skill__icon {
   display: inline-block;
   height: 74px;
@@ -310,6 +299,4 @@ a {
 }
 
 .skill__item-desc {
-  margin-top: 15px;
-  text-align: left;
 }
