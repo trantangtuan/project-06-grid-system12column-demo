@@ -1,0 +1,40 @@
+
+/* PC max width 1200 */
+@media screen and (min-width:992px) and (max-width:1399.98px){
+    /* .nav {
+        width:1170px;
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+      }
+
+      .logo {
+        margin-left: 357px;
+      } */
+      
+}
+
+/* Mobile and tablet */
+
+@media screen and (max-width:991.98px){
+
+}
+
+/* tablet */
+
+@media screen and (min-width:768px) and (max-width:991.98) {
+    
+}
+
+/* mobile  */
+@media screen and (max-width:767.98px) {
+    
+}
+
+
+/* mobile small */
+@media screen and (max-width:575.98px) {
+    
+}
+
+

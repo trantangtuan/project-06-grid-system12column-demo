@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html,body{
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -16,6 +20,7 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
+  margin: 0px auto;
 }
 
 .item {
@@ -25,6 +30,11 @@ body {
 }
 
 /* ======================common======================== */
+
+
+.container{
+  padding: 0;
+}
 
 a {
   text-decoration: none;
@@ -110,6 +120,9 @@ a {
 }
 
 .logo {
+  height: 86px;
+  width: 86px;
+  object-fit: cover;
   margin-left: 357px;
 }
 
@@ -119,7 +132,7 @@ a {
 }
 
 .navbar {
-  margin-left: auto;
+  margin-left: 201.5px;
   display: flex;
   align-items: center;
 }
@@ -156,12 +169,14 @@ a {
 
 .hero__img {
   width: 514px;
+  height: 705px;
+  object-fit: cover;
   margin-bottom: -3px;
 }
 
 .hero__right {
   width: 500px;
-  margin-left: auto;
+  margin-left: 156px;
 }
 
 .hero__title {
@@ -238,7 +253,7 @@ a {
 
 .partner__title {
   position: relative;
-  margin-left: auto;
+  margin-left: 99px;
   width: 253px;
   color: #080415;
   font-size: 4.2rem;
@@ -261,11 +276,12 @@ a {
 }
 
 .partner__right {
-  margin-left: 150px;
+  margin-left: 105px;
   width: 70%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 36px 66px;
+  grid-template-columns: repeat(4,auto);
+  gap: 36px 0;
+  justify-content: space-between;
 }
 
 /* skill */
@@ -312,4 +328,87 @@ a {
 .skill__item-desc {
   margin-top: 15px;
   text-align: left;
+}
+
+/* project */
+
+.project{
+  padding: 86px 0;
+  background-color: var(--primary-color);
+}
+
+.project__top{
+  display: flex;
+  align-items: center;
+}
+
+.project__title{
+  text-align: left;
+  width: 468px;
+  color: #fff;
+}
+
+.project__desc{
+  width: 370px;
+  color: #fff;
+  text-align: left;
+  margin-left: 160px;
+  opacity: 0.7;
+}
+
+.project__list{
+  margin:70px 0 80px;
+  gap: 30px 0;
+}
+
+.project__item{
+  padding: 24px 23px 23px 34px;
+  background-color: #fbfaff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project__info{
+  width: 225px;
+}
+
+.project__info-title{
+  color: #080415;
+font-size: 3.2rem;
+font-style: normal;
+font-weight: 500;
+line-height: 125%;
+letter-spacing: -1.28px;
+}
+
+.project__info-desc{
+  margin: 10px 0 20px;
+  color: #51586A;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: 143.75%;
+}
+
+.project__info-cta{
+  text-decoration: underline;
+  color: #080415;
+  font-weight: 700;
+  line-height: 166.667%;
+}
+
+.project__info-img{
+  width: 246px;
+  height: 187px;
+  object-fit: cover;
+}
+
+.project__cta{
+  text-align: center;
+}
+
+.project__btn-all{
+  background-color: #fff;
+  color: #080415;
 }
