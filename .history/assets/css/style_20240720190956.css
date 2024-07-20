@@ -420,7 +420,13 @@ a {
 }
 
 .journey__top {
+  width: 570px;
   margin: 86px auto 0;
+}
+
+.journey__top-content {
+  width: 570px;
+  text-align: center;
 }
 
 .journey__greeting {
@@ -518,85 +524,4 @@ a {
   color: #51586a;
   bottom: 10px;
   right: 10px;
-}
-
-.journey__bottom {
-  margin-top: 150px;
-}
-
-.journey__feedback {
-  margin-top: 60px;
-}
-
-.journey__feedback-content {
-  text-align: center;
-}
-
-.journey__feedback-info {
-  color: #51586a;
-  text-align: center;
-  font-size: 2.4rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 166.667%;
-}
-
-.journey__feedback-user {
-  margin-top: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6.7px;
-}
-
-.user-avatar {
-  height: 40px;
-  width: 40px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.username {
-  color: #080415;
-  text-align: center;
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 133.333%;
-}
-
-.user-position {
-  margin: 0px auto;
-  width: 250px;
-  margin-top: 3px;
-  color: #51586a;
-  text-align: center;
-  font-size: 1.6rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 181.25%;
-}
-
-.dots-group {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-
-.dot {
-  cursor: pointer;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background-color: #080415;
-  opacity: 0.2;
-}
-
-.dot:hover {
-  opacity: 1;
-  background-color: var(--primary-color);
-  border: 3px solid #fff;
-  outline: 1px solid var(--primary-color);
 }

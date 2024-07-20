@@ -581,22 +581,11 @@ a {
   margin-top: 40px;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 16px;
 }
 
 .dot {
-  cursor: pointer;
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background-color: #080415;
-  opacity: 0.2;
-}
-
-.dot:hover {
-  opacity: 1;
-  background-color: var(--primary-color);
-  border: 3px solid #fff;
-  outline: 1px solid var(--primary-color);
 }
