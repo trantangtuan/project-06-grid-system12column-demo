@@ -693,7 +693,3 @@ label::after {
 .question__view:checked ~ label::after {
   opacity: 1;
 }
-
-.question__view:checked [class*="question__group"] {
-  /* border-color: var(--primary-color); */
-}

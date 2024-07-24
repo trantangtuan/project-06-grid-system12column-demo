@@ -690,10 +690,10 @@ label::after {
   color: var(--primary-color);
 }
 
-.question__view:checked ~ label::after {
-  opacity: 1;
+.question__view:checked ~ label {
+  display: none;
 }
 
-.question__view:checked [class*="question__group"] {
-  /* border-color: var(--primary-color); */
+.question__view:checked ~ .label::after {
+  opacity: 1;
 }

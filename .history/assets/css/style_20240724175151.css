@@ -695,5 +695,5 @@ label::after {
 }
 
 .question__view:checked [class*="question__group"] {
-  /* border-color: var(--primary-color); */
+  border-color: var(--primary-color);
 }
