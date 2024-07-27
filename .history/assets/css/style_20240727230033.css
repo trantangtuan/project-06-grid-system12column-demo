@@ -710,17 +710,4 @@ label::after {
 
 .gallery__desc {
   width: 528px;
-  margin: 0px auto;
-  margin-top: 20px;
-}
-
-.gallery__hastag {
-  margin-top: 30px;
-  color: var(--primary-color);
-  font-size: 3.2rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 125%;
-  letter-spacing: -1.28px;
-  text-decoration-line: underline;
 }
