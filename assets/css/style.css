@@ -724,3 +724,13 @@ label::after {
   letter-spacing: -1.28px;
   text-decoration-line: underline;
 }
+
+.gallery__list{
+  margin-top: 70px;
+}
+
+.gallery__img{
+  width: 100%;
+  height: 529px;
+  object-fit: cover;
+}
