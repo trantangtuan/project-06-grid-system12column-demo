@@ -804,10 +804,6 @@ label::after {
   height: 14px;
   width: 1px;
   background-color: #525771;
-  opacity: 0.6;
-  margin: 0 8px 0 23px;
-}
 
-.terms {
-  margin-right: 147px;
+  opacity: 0.6;
 }

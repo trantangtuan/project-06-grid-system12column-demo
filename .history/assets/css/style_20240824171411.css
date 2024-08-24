@@ -776,8 +776,6 @@ label::after {
 }
 
 .copyright__group {
-  margin: 0px auto;
-  width: 1429px;
   margin-top: 18px;
   display: flex;
   align-items: center;
@@ -789,25 +787,4 @@ label::after {
   font-style: normal;
   font-weight: 400;
   line-height: 166.667%;
-  opacity: 0.6;
-}
-
-.copyright__content {
-  margin-left: 129px;
-}
-
-.privacy {
-  margin-left: auto;
-}
-
-.footer__vertical {
-  height: 14px;
-  width: 1px;
-  background-color: #525771;
-  opacity: 0.6;
-  margin: 0 8px 0 23px;
-}
-
-.terms {
-  margin-right: 147px;
 }
