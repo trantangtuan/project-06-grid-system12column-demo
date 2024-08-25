@@ -1,0 +1,17 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.item {
+  /* width: 33.3333%; */
+  border: 1px dashed orange;
+  flex: 1 0;
+}
+
+/* ==========================header========================= */
+
+.nav {
+  width: 1330px;
+}
